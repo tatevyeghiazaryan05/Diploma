@@ -1,0 +1,5 @@
+/root/Diploma/EdaWindowQuery/build/CMakeFiles/EdaWindowQuery.dir
+/root/Diploma/EdaWindowQuery/build/CMakeFiles/edit_cache.dir
+/root/Diploma/EdaWindowQuery/build/CMakeFiles/rebuild_cache.dir
+/root/Diploma/EdaWindowQuery/build/CMakeFiles/EdaWindowQuery_autogen_timestamp_deps.dir
+/root/Diploma/EdaWindowQuery/build/CMakeFiles/EdaWindowQuery_autogen.dir
