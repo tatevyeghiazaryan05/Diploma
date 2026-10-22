@@ -8,7 +8,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 
 add_executable(EdaWindowQuery
     main.cpp
@@ -19,4 +19,15 @@ add_executable(EdaWindowQuery
     MainWindow.cpp
 )
 
-target_link_libraries(EdaWindowQuery PRIVATE Qt6::Widgets)
+target_link_libraries(EdaWindowQuery PRIVATE 
+    Qt6::Widgets
+    Qt6::Core 
+    Qt6::Gui
+)
+
+target_include_directories(EdaWindowQuery PRIVATE
+    /usr/include/x86_64-linux-gnu/qt6
+    /usr/include/x86_64-linux-gnu/qt6/QtCore
+    /usr/include/x86_64-linux-gnu/qt6/QtGui
+    /usr/include/x86_64-linux-gnu/qt6/QtWidgets
+)
