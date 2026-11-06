@@ -1,0 +1,5 @@
+column id,column type,layer,x_min,y_min,x_max,y_max
+1,CELL,CORE,100,200,140,240
+2,MACRO,CORE,300,100,500,300
+3,METAL,M2,120,210,180,220
+4,VIA,VIA12,175,215,180,220
